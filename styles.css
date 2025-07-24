@@ -1,0 +1,61 @@
+footer {
+    background-image: url(imagenes/fondo-mario.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+    color: black;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px
+}
+
+.footer-container > div{
+    flex: 1 1 200px;
+}
+
+.footer-enlaces ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.footer-enlaces a,
+.footer-siguenos a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-enlaces a:hover,
+.footer-siguenos a:hover {
+    color: rgba(248, 9, 9, 0.788);
+    text-decoration: underline;
+}
+
+.footer-siguenos img {
+    width: 60px;
+    height: 60px;
+}
+
+.facebook {
+    width: 10px;
+    height: 60px;
+}
+
+.footer-final{
+    text-align: center;
+    margin: 30px;
+    font-size: 0.9 rem;
+    border-top: 1px solid;
+    padding-top: 15px;
+}
+
+
+
+
