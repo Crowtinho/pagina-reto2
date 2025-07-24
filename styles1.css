@@ -1,0 +1,74 @@
+body.mario-bg {
+  background: url('https://elcomercio.pe/resizer/2glKfLpFT7-rqbi1NCklZLqui1Y=/1200x675/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/FN3ETS723JDORMAE5HHAWWUSLQ.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.contacto-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: rgba(0, 0, 0, 0.6); 
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 0 20px #ffdd57;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+.contacto-container h1 {
+  color: #ff0000;
+  margin-bottom: 20px;
+}
+
+.info-contacto {
+  background-color: #e0f7fa;
+  border: 2px dotted #0077cc;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.info-contacto {
+  background-color: #e0f7fa;
+  border: 2px dotted #0077cc;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.mario-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mario-form input,
+.mario-form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #0077cc;
+  border-radius: 5px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
+
+.mario-form button {
+  background-color: #ffcc00;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Press Start 2P', cursive;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.mario-form button:hover {
+  transform: scale(1.1);
+}

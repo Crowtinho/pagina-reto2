@@ -1,0 +1,71 @@
+
+body {
+    background-image: url('imagenes/istockphoto-1487813080-170667a.jpg');
+    background-size: cover;
+    font-family:'Press Start 2P', Arial, sans-serif;
+    
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: #2B2B2B;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#parrafo {
+    background-color: #FFF8D2;
+    border-radius: 20px;
+    padding: 10px 5px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#imagenes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.integrantes {
+  text-align: center;
+}
+
+.integrantes img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #000000;
+  margin: 0 20px;
+}
+
+img:hover{
+    transform: scale(1.2); 
+    box-shadow: 0 0 20px 8px rgba(60, 60, 0, 0.15);
+}
+
+#parrafo:hover{
+    transform: scale(1.2); 
+     box-shadow: 5px 5px 15px rgba(60, 60, 0, 0.15);
+}
+
+@keyframes parpadeo {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+h1, h3 {
+  animation: parpadeo 2s infinite;
+}
