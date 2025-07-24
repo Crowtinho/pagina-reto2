@@ -1,22 +1,27 @@
 footer {
-    background-image: url(imagenes/fondo-mario.jpg);
+    background: 
+      linear-gradient(rgba(255, 255, 255, 0)), 
+      url("imagenes/fondov2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 0.5;
     color: black;
+    text-shadow: 3px 3px 3px rgb(253, 253, 253);
     padding: 40px 20px;
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Press Start 2P', Arial, sans-serif;
+    font-size: 16px;
+
 }
 
-.footer-container{
+.footer-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap:20px
+    gap: 20px;
 }
 
-.footer-container > div{
+.footer-container > div {
     flex: 1 1 200px;
 }
 
@@ -24,7 +29,6 @@ footer {
     list-style: none;
     padding: 0;
 }
-
 
 .footer-enlaces a,
 .footer-siguenos a {
@@ -43,16 +47,12 @@ footer {
     height: 60px;
 }
 
-.facebook {
-    width: 10px;
-    height: 60px;
-}
 
-.footer-final{
+.footer-final {
     text-align: center;
     margin: 30px;
-    font-size: 0.9 rem;
-    border-top: 1px solid;
+    font-size: 0.9rem;
+    border-top: 1px solid white;
     padding-top: 15px;
 }
 
